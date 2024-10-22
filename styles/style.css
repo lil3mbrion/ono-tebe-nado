@@ -109,7 +109,7 @@ html {
   letter-spacing: 0.6em;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0;
 }
 
@@ -217,7 +217,7 @@ html {
   position: relative;
   background: url(../images/card-lot-01.jpg);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .card.card_type_book {
