@@ -3,8 +3,19 @@ html {
   margin: auto;
 }
 
-a {
+li a {
+  border-bottom: 1px solid #000000;
   text-decoration: none;
+}
+
+address {
+  min-width: 240px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  font-style: normal;
 }
 
 .header {
@@ -19,10 +30,7 @@ a {
   align-items: center;
 }
 
-.header__links-list {
-  display: flex;
-  gap: 32px;
-  list-style: circle;
+.header__menu {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -30,14 +38,19 @@ a {
   letter-spacing: 0.01em;
 }
 
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
 .header__links-list-item_no-built {
   list-style: none;
 }
 
-.header__link {
-  border-bottom: 1px solid #000000;
+.header__link_active {
+  border-bottom: none;
 }
-
 
 .header__logo {
   max-width: 129px;
@@ -54,15 +67,10 @@ a {
 }
 
 .header__address {
-  min-width: 240px;
+  justify-self: end;
 }
 
 .header__address__links-list {
-  font-family: 'Raleway', 'Arial', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  letter-spacing: 0.01em;
   list-style: none;
 }
 
@@ -201,6 +209,7 @@ a {
 
 .card-link {
   display: block;
+  border-bottom: none;
 }
 
 .card {
@@ -268,6 +277,7 @@ a {
   line-height: 23.48px;
   text-align: left;
   margin: 30px 0px 2px 40px;
+  text-decoration: none;
 }
 
 .about {
@@ -352,24 +362,19 @@ a {
   justify-content: space-between;
 }
 
-.footer__address {
-  min-width: 240px;
-}
-
 .footer__address__links-list {
   list-style: none;
+}
+
+.footer__link_active {
+  border-bottom: none;
+}
+
+.footer__menu {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.3px;
-  text-align: left;
-}
-
-
-.footer__link {
-  border-bottom: 1px solid #000000;
-  font-family: Raleway;
-  letter-spacing: 0.01em;
+  line-height: 21.13px;
 }
 
 .footer__menu-list {
@@ -380,14 +385,10 @@ a {
 
 .footer__menu-list-item {
   list-style: none;
-  font-family: 'Raleway', 'Arial', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
 }
 
-.footer__menu-link {
-  border-bottom: 1px solid #000000;
+.footer__menu-link_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
@@ -397,6 +398,10 @@ a {
 
 .footer__social-list-item {
   list-style: none;
+}
+
+.footer__social-link {
+  border-bottom: none;
 }
 
 .footer__social-icon {
