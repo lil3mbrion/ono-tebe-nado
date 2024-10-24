@@ -221,16 +221,10 @@ address {
   align-content: space-between;
   color: #FFFFFF;
   height: 100%;
-}
-
-.card.card_type_film,
-.card.card_type_book,
-.card.card_type_picture {
   background-size: cover;
   background-position: center;
   position: relative;
 }
-
 
 .card.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
@@ -243,7 +237,6 @@ address {
 .card.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
-
 
 .card__title {
   font-family: 'Raleway', 'Arial', sans-serif;
@@ -266,8 +259,6 @@ address {
   margin: 0px 40px 48px 40px;
   z-index: 2;
 }
-
-
 
 .lots__look-more-link {
   border-bottom: 1px solid #000000;
